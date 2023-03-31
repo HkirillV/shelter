@@ -74,6 +74,11 @@ html {
 
 .header-content {
   padding: 10.2rem 2.6rem 15.2rem 0;
+  max-width: 31.25rem;
+}
+
+.header-content p {
+  color: #CDCDCD;
 }
 
 .header-heading {
@@ -81,10 +86,6 @@ html {
   font-size: 2.75rem;
   color: #FFFFFF;
   margin-bottom: 2.6rem;
-}
-
-p {
-  color: #CDCDCD;
 }
 
 .header-button {
