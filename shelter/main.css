@@ -1,18 +1,100 @@
-/* Error: Expected expression.
- *    ,
- * 10 |   max-width: ;
- *    |              ^
- *    '
- *   sass\layout\_header.scss 10:14  @import
- *   main.scss 1:9                   root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a    \2577 \a 10 \2502    max-width: ;\d\a    \2502               ^\a    \2575 \a   sass\\layout\\_header.scss 10:14  @import\a   main.scss 1:9                   root stylesheet";
+html {
+  font-size: 100%;
 }
+
+.body {
+  font-family: Arial, "Noto Serif Georgian", serif;
+}
+
+/* Nav content*/
+.container {
+  max-width: 1250px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 1.7rem;
+  background-color: #000000;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  margin: 1.94rem 2rem 5.6rem 3rem;
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding-top: 0.6rem;
+  padding-left: 0.4rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #F1CDB3;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 2.1rem;
+  list-style-type: none;
+}
+
+.nav-link.about {
+  text-decoration: none;
+  border-bottom: 0.2rem solid #F1CDB3;
+  color: #FAFAFA;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #CDCDCD;
+}
+
+/* Header content */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.8rem;
+  margin: 5.6rem 2.5rem 0 2.5rem;
+}
+
+.header-content {
+  padding: 10.2rem 2.6rem 15.2rem 0;
+}
+
+.header-heading {
+  font-weight: 400;
+  font-size: 2.75rem;
+  color: #FFFFFF;
+  margin-bottom: 2.6rem;
+}
+
+p {
+  color: #CDCDCD;
+}
+
+.header-button {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem 2.8rem;
+  background-color: #F1CDB3;
+  color: #444444;
+  border-radius: 6.25rem;
+  margin: 2.6rem 0 0 0;
+}
+
+/*# sourceMappingURL=main.css.map */
